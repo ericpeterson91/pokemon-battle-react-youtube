@@ -1,0 +1,26 @@
+* {
+    font-family: sans-serif
+}
+
+.pokemon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.name {
+    font-size: 45px;
+}
+
+.hp {
+    font-size: 35px;
+}
+
+button {
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
